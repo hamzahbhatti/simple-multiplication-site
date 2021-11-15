@@ -1,0 +1,68 @@
+body {
+  background-color: #2C3A47;
+}
+
+.App {
+  top:50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+
+}
+
+.oefening-container {
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 20px;
+  border-radius: 15px;  
+  background-color: white;
+
+}
+ .oefening {
+  height: 200px;
+  width: 220px;
+  padding: 25px;
+  text-align: center;
+ }
+
+.number{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+ 
+.result {
+  margin-top: 2.8rem;
+  text-align: left;
+}
+
+
+#checkmark {
+  color: rgb(32, 133, 32);
+}
+
+#crossmark {
+  color:red 
+}
+
+p {
+  margin: 0 ;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  background-color: #2C3A47;
+  border-radius: 5px;
+  color: aliceblue;
+  margin: 10px 0 0 0 ;
+  
+}
+
+.answer {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
